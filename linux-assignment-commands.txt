@@ -1,0 +1,112 @@
+Linux Commands Assignment
+1. Create a new directory called linux-assignment in your home directory.
+Solution:
+To create a new directory following linux command is used:
+
+mkdir linux-assignment
+
+The mkdir stands for ‘make directory’. This command creates a new
+directory in the system.
+
+2. Navigate into the linux-assignment directory.
+Solution:
+cd linux-assignment directory
+
+The above cd i.e change directory command is used to navigate into the directory.
+
+3. Create a new file called instructions.txt.
+Solution:
+The following command is used to create a new file:
+Cat > instructions.txt
+
+The ‘cat’ command can be used to create a new file with greater than sign
+(>).
+
+4. Write “Hello, World!” into instructions.txt using a command-line text
+editor like nano, vi, or emacs.
+Solution:
+nano istructions.txt
+  
+The above nano command will allow us to write and edit the text in the file.
+
+5. Display the contents of instructions.txt using a command.
+Solution:
+The following command is used to display the content:
+cat instructions.txt
+
+6. Rename instructions.txt to greetings.txt.
+Solution:
+The following command is used to rename the file:
+mv instructions.txt greetings.txt
+
+In this command it is needed to specify one file as the source and one file as a destination target to
+rename any file.
+
+7. Copy greetings.txt to a new file called salutations.txt.
+Solution:
+The following command is used to copy the file to new file:
+cp greetings.txt salutations.txt
+
+8. Delete greetings.txt.
+Solution:
+rm greetings.txt
+
+The above command is used for deletion. rm command is used to remove a file. The command line doesn’t have a recycle
+bin or trash to recover the files. Hence, the deleted file will removed
+permanently.
+
+9. Create a new directory called archive.
+Solution:
+mkdir archive
+
+The above command will create a new directory archive in your system.
+
+10. Move salutations.txt to the archive directory.
+Solution:
+The mv command is used to move files and directories from one location to
+another. To move file into directory, specify the files you want to move as
+the source. And specify the directory name as destination in which you want
+to move the file as following command:
+
+  Mv salutations.txt ~/archive
+
+11. Display the current working directory to confirm that salutations.txt
+is now in the archive directory.
+Solution:
+The command to display current working directory is as follows:
+
+pwd
+
+pwd stands for Print Working Directory. It writes the complete path name of
+the working directory to standard output in UNIX-like and other operating
+systems. 
+
+12. Navigate back to the linux-assignment directory and create three new
+empty files named file1.txt, file2.txt, and file3.txt.
+Solution:
+The following command will take us to the linux-assignment directory.
+cd linux-assignment directory
+ 
+And then the below command will create a new empty files in the directory.
+cat file1.txt, file2.txt, and file3.txt
+
+13. Display the list of files in the linux-assignment directory to confirm
+the creation of the new files.
+Solution:
+To display all the files in the current working directory i.e. linux-
+assignment following command is used.
+
+ls
+
+14. Create a new text file in your home directory named linux-assignment-
+commands.txt and write down all the commands you used in this assignment.
+Solution:
+To create a new text file in home directory following command is used:
+
+cat linux-assignment-commands.txt
+
+
+
+
+
+
